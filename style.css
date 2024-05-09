@@ -1,0 +1,58 @@
+.header{
+  font-size: x-large;
+ font-weight: bold ;
+ color: lightskyblue;
+  }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  
+
+}
+
+
+  #container{
+
+    border: 1px solid rgb(58, 49, 49);
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: white;
+  }
+
+
+
+
+
+
+#btn1{
+  position: relative;
+  right: 40px;
+  background-color: RED;
+
+}
+
+#btn2{
+  position: relative;
+  left: 10px;
+  background-color: white;
+}
+
+
+#btn3{
+  position: relative;
+  left: 50px;
+  background-color: brown;
+
+}
+
+#btn4{
+  position: relative;
+  left: 90px;
+  background-color: powderblue;
+
+}
